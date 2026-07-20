@@ -1,0 +1,7 @@
+principle = int(input("What is the principle amount (in Rs.) ? "))
+print("")
+roi = int(input("What is the Rate of Interest ? "))
+print("")
+time = int(input("What is the duration ? "))
+print("")
+print(f"The simple interest is {int(principle*roi*time/100)} Rs")
